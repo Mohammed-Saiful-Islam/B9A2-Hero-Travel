@@ -63,4 +63,30 @@
     .nav .right {
         display: none;
     }
+
+    .banner .container {
+        width: 100%;
+        max-width: 1170px;
+        height: 400px;
+    }
+
+    .banner-title h1 {
+        /* font-size: 1.5rem; */
+    }
+
+    .banner .container .title h1 {
+        padding: 0;
+        font-size: 2rem;
+        margin-bottom: 10px;
+
+    }
+
+    .banner .container .input-btn {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
 }
