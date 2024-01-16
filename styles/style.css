@@ -210,12 +210,13 @@ img {
 }
 
 .destination {
-    margin-top: 4%;
+    margin-top: 75px;
     margin-bottom: 0;
 }
 
 .destination .container {
     width: 90%;
+    max-width: 1170px;
     margin: 0 auto;
     text-align: center;
 }
@@ -309,7 +310,7 @@ img {
 }
 
 .choose {
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 .choose .container {
@@ -386,4 +387,102 @@ img {
     margin-left: 25px;
     margin-bottom: 15px;
     /* margin-top:20% ; */
+}
+
+.deals .container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.deals .container .text {
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.deals .container .text h1 {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.deals .container .text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.deals .container .content {
+    background-image: url(../images/Group\ 39.png);
+    background-size: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+
+}
+
+
+.deals .container .content .info {
+    border-radius: 16px;
+    background: lightgray;
+    opacity: 50%;
+    object-fit: cover;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    top: 30%;
+    right: 10%;
+}
+
+.deals .container .content .info .detail .icons .icon {
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.deals .container .content .info .detail h2 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.deals .container .content .info .detail p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.deals .container .content .info .detail h3 {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.deals .container .content .info .detail button {
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 10px 20px;
+}
+
+.deals .container .middle {
+    background-image: url(../images/Group\ 40.png);
+    display: flex;
+    justify-content: left;
+}
+
+.deals .container .content .medium {
+    border-radius: 16px;
+    background: lightgray;
+    opacity: 50%;
+    object-fit: cover;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    top: 30%;
+    left: 10%;
 }
