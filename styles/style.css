@@ -560,3 +560,98 @@ img {
     width: 280px;
     text-align: center;
 }
+
+.news .container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1170px;
+    display: flex;
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.news .container .form form {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 5%;
+}
+
+.news .container .form form h1 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.news .container .form form p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.news .container .form form input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.news .container .form form button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 10px 20px;
+}
+
+.news .container .img {
+    border-radius: 16px;
+    width: 65%;
+    background-image: url(../images/Rectangle\ 8\ \(1\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 420px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.news .container .img .text {
+    text-align: center;
+    padding: 4%;
+    width: 40%;
+    border-radius: 16px;
+    background: #FF5400;
+}
+
+.news .container .img .text h2 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+.news .container .img .text h3 {
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.footer .container {
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+}
+
+.footer .container .logo {
+    width: 50px;
+}
