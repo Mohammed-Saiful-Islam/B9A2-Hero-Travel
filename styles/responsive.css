@@ -208,3 +208,6 @@
         width: 80%;
     }
 }
+.deals .container .bottom-btn{
+    display: none;
+}

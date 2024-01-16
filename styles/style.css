@@ -486,3 +486,13 @@ img {
     top: 30%;
     left: 10%;
 }
+
+.deals .container .bottom-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
