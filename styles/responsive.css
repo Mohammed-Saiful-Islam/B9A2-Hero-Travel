@@ -109,4 +109,68 @@
     .tours .container .text-btn .bottom-p {
         margin-bottom: 0%;
     }
+
+    .destination {
+        margin-top: 5%;
+    }
+
+    .destination .container {
+        width: 80%;
+    }
+
+    .destination .container .text {
+        margin-bottom: 5%;
+    }
+
+    .destination .container .text h1 {
+        font-size: 1.25rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .destination .container .img .content {
+        width: 100%;
+    }
+
+    .destination .container .img {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+
+    .destination .container .img .maldi {
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    }
+
+    .destination .container .img .indo {
+
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    }
+
+    .destination .container .img .srila {
+        grid-column: 1/span 1;
+        grid-row: 2/span 1;
+    }
+
+    .destination .container .img .north-am {
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+    }
+
+    .destination .container .img .kash {
+        grid-column: 1/span 1;
+        grid-row: 4/span 1;
+        background-size: 100%;
+    }
+
+    .destination .container .img .bangla {
+        grid-column: 1/span 1;
+        grid-row: 5/span 1;
+    }
+
+    .destination .container .img .bandar {
+        grid-column: 1/span 1;
+        grid-row: 6/span 1;
+    }
 }

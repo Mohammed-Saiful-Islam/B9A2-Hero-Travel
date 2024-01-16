@@ -209,16 +209,26 @@ img {
     margin-top: 24px;
 }
 
+.destination {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
 .destination .container {
     width: 90%;
     margin: 0 auto;
     text-align: center;
 }
 
+.destination .container .text {
+    margin-bottom: 2%;
+}
+
 .destination .container .text h1 {
     color: #131318;
     font-size: 2.25rem;
     font-weight: 800;
+    margin-bottom: 0.25%;
 }
 
 .destination .container .text p {
@@ -231,9 +241,10 @@ img {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    height: 600px;
+    height: 1600px;
     gap: 2%;
 }
+
 
 .destination .container .img .content {
     border-radius: 10px;
