@@ -127,11 +127,30 @@ img {
     background: rgba(255, 255, 255, 0.30);
 }
 
-.banner .container .input-btn input {
+.banner .container .input-btn .where input {
+    padding: 10px 20px;
+}
+
+.banner .container .input-btn .when,
+.type {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.banner .container .input-btn>.input,
+.select {
+    outline: none;
+    border: none;
+    padding: 12px;
+    padding-left: 5px;
+}
+
+/* .banner .container .input-btn input {
     padding: 10px;
     border-radius: 10px;
     color: rgba(19, 19, 24, 0.50);
-}
+} */
 
 .banner .container .input-btn .btn {
     color: #FFF;

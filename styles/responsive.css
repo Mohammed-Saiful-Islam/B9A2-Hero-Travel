@@ -69,8 +69,9 @@
     }
 
     .banner .container {
-        width: 100%;
-        max-width: 1170px;
+        width: 90%;
+        margin: 0 auto;
+        max-width: 600px;
         height: 400px;
     }
 
