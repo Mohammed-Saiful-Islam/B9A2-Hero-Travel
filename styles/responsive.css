@@ -105,4 +105,8 @@
     .tours .container .text-btn .btn {
         margin-bottom: 75px;
     }
+
+    .tours .container .text-btn .bottom-p {
+        margin-bottom: 0%;
+    }
 }
