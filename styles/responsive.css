@@ -91,4 +91,18 @@
 
     }
 
+    .tours .container {
+        flex-direction: column;
+        width: 80%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .tours .container .text-btn h2 {
+        font-size: 1.25rem;
+    }
+
+    .tours .container .text-btn .btn {
+        margin-bottom: 75px;
+    }
 }

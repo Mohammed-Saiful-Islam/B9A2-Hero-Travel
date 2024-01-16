@@ -162,3 +162,49 @@ img {
     background: #FF5400;
     padding: 10px 20px;
 }
+
+.tours .container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.tours .container .text-btn {
+    padding: 2%;
+}
+
+.tours .container .text-btn h2 {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.tours .container .text-btn p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.tours .container .text-btn ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 4%;
+    margin-right: 8%;
+    margin-bottom: 12px;
+}
+
+.tours .container .text-btn .btn {
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 24px;
+}
