@@ -198,6 +198,11 @@
         font-size: 1.25rem;
     }
 
+    .deals .container {
+        width: 80%;
+        max-width: 600px;
+    }
+
     .deals .container .content {
         height: 500px;
         background-size: auto;
@@ -207,7 +212,40 @@
     .deals .container .content .info {
         width: 80%;
     }
-}
-.deals .container .bottom-btn{
-    display: none;
+
+    .deals .container .bottom-btn {
+        display: none;
+    }
+
+    .simple .container {
+        width: 80%;
+        max-width: 600px;
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .simple .container .img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .simple .container .text-btn {
+        margin-bottom: 20px;
+    }
+
+    .simple .container .text-btn h1 {
+        margin-bottom: 10px;
+    }
+
+    .simple .container .text-btn p {
+        margin-bottom: 10px;
+    }
+
+    .simple .container .text-btn ul li {
+        margin-bottom: 5px;
+    }
+
+    .simple .container .text-btn button {
+        margin-top: 10px;
+    }
 }
