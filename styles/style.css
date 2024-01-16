@@ -308,6 +308,10 @@ img {
     grid-row: 9/span 4;
 }
 
+.choose {
+    margin-top: 50px;
+}
+
 .choose .container {
     width: 90%;
     max-width: 1170px;
